@@ -1,4 +1,3 @@
-// Load environment variables
 require('dotenv').config();
 
 // Access the variables
@@ -8,7 +7,6 @@ const config = {
     isKalvian: process.env.IS_KALVIAN === 'true', // Convert string to boolean
 };
 
-// Export config (optional, for reuse in other files)
 module.exports = config;
 
 // Log the variables (for testing)
